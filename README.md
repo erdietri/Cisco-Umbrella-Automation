@@ -1,5 +1,5 @@
 # Cisco-Umbrella-Automation
-A repository of Umbrella scripts for network automation professionals to choose from when creating automated workflows
+A repository of sample Umbrella scripts for network automation professionals to choose from when creating automated workflows
 
 ## Sample Python Scripts & API Calls Included
 * **Authenticate with Umbrella** - calls the API key and key secret you created from a .env file and uses them to generate an access token (expires in 1 hour)
