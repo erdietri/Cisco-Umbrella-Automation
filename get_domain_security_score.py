@@ -24,7 +24,7 @@ def generate_access_token():
     access_token = response.json()['access_token']
     return access_token
 
-# Get domain security score of 1 domain
+# Retrieves the domain security score of a single domain.
 def get_domain_security_score(access_token, domain):  
 
     headers = {

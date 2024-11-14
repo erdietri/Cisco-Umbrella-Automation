@@ -6,15 +6,13 @@ A repository of sample Umbrella scripts for network automation professionals to 
 * **Find uncommon domains accessed in your network(s)** - find_uncommon_domains_with_umbrella.py automatically finds domains outside of Umbrella's top 1 million (posted daily) for potential investigation and/or action
 * **Get a domain's security score** - get_domain_security_score.py retrieves the Umbrella risk score for a single domain, with 0 being no risk at all and 100 being the highest. More info: https://developer.cisco.com/docs/cloud-security/legacy-umbrella-apis-investigate-api-reference-api-security-information-for-a-domain-get-risk-score-for-domain/
 * **Reporting: Umbrella activity over past week** - get_umbrella_activity_for_past_week.py retrieves the DNS, proxy, firewall, and intrusion activity over the past 7 days
-* **Create a ticket in Jira for investigation and incident response** - create_jira_ticket.py
-
 
 ## Requirements
 * Access to active Cisco Umbrella account OR Cisco DevNet Umbrella sandbox:
 * Umbrella Admin API key. (Please see documentation to apply a reasonable scope relevant to the scripts you are interested in using: https://developer.cisco.com/docs/cloud-security/oauth-2-0-scopes/)
 * VS Code 1.87.0 (or IDE of your choice)
 * Python 3.12.1
-* Python libraries listed in '''requirements.txt''' (see below, Run Project, to install)
+* Python libraries, depending on the script: requests, os, load_dotenv, csv, zipfile, pandas, IP
 
 ## Installation & Usage
 ### Install VS Code & Python
